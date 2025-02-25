@@ -20,7 +20,7 @@ This repository contains my work for the *Quantium Data Analytics Job Simulation
    - Created a comprehensive report with visualizations, summarizing insights and strategic recommendations.
 
 ## Key Outputs
-- **Visuals**: Sales trends, benchmark comparisons (see `/visuals/`)
+- **Visuals**: Sales trends, benchmark comparisons ![Sales Trend](visuals/sales_trend.png)
 - **Report**: Final presentation for Category Manager (see `/reports/`)
 - **Code**: Jupyter notebooks for each task (see `/notebooks/`)
 
