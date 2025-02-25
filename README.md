@@ -33,9 +33,4 @@ This repository contains my work for the *Quantium Data Analytics Job Simulation
 This simulation enhanced my ability to translate raw data into business value, bridging my geophysics background with practical data analytics. Key learnings include customer segmentation and presenting insights concisely for stakeholders.
 
 ## Certificate
-- [Link to Forage certificate, if available, or mention "Available upon request"]
-
-## Contact
-- GitHub: [YourUsername]
-- LinkedIn: [Your LinkedIn URL]
-- Email: [Your Email]
+![Quantium Certificate](visuals/certificate.png
