@@ -45,5 +45,3 @@ Comprehensive retail analytics project conducted for Quantium to analyze custome
 - **RFM Analysis:** Customer value segmentation
 - **Statistical Testing:** T-tests for trial impact validation
 - **Control Store Matching:** Correlation analysis (0.87-0.97) and SMD (0.00-0.02)
-
-## 📁 Project Structure
