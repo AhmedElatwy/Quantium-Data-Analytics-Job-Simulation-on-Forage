@@ -1,36 +1,49 @@
-# Quantium Data Analytics Job Simulation (Forage)
+# 🛒 Retail Strategy & Analytics: Chip Category Performance Analysis
 
-## Overview
-This repository contains my work for the *Quantium Data Analytics Job Simulation* completed on Forage in [Feb, 2025]. The simulation focused on delivering data-driven insights for a supermarket client, involving data preparation, customer analytics, uplift testing, and strategic reporting.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-8A2BE2?style=for-the-badge)](https://)
 
-- **Duration**: ~10 hours, self-paced
-- **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebook, PowerPoint
-- **Skills**: Data cleaning, EDA, time series analysis, customer segmentation, visualization, commercial insights
+## 📊 Project Overview
 
-## Project Tasks
-1. **Data Preparation & Customer Analytics**
-   - Cleaned and analyzed transaction datasets to extract customer purchasing trends.
-   - Delivered actionable insights for commercial recommendations.
+Comprehensive retail analytics project conducted for Quantium to analyze customer purchasing behavior in the chips category and evaluate the impact of new trial store layouts. This data-driven analysis provided strategic recommendations for optimizing sales and customer engagement.
 
-2. **Uplift Testing with Benchmark Stores**
-   - Identified benchmark stores for trial layout testing using analytical metrics.
-   - Evaluated performance to support evidence-based decisions.
+### 🎯 Business Objectives
+- Analyze customer purchasing behavior for chips category
+- Identify key customer segments and sales drivers  
+- Evaluate impact of trial store layouts vs control stores
+- Provide data-driven recommendations for national rollout
 
-3. **Reporting for Category Manager**
-   - Created a comprehensive report with visualizations, summarizing insights and strategic recommendations.
+## 📈 Key Insights & Findings
 
-## Key Outputs
-- **Visuals**: Sales trends, benchmark comparisons ![Sales Trend](visuals/sales_trend.png)
-- **Report**: Final presentation for Category Manager (see `/reports/`)
-- **Code**: Jupyter notebooks for each task (see `/notebooks/`)
+### Customer Segmentation
+- **Top Segments:** Retirees (20.38%), Older Singles/Couples (20.11%), Young Singles/Couples (19.88%)
+- **Membership Distribution:** Mainstream (40.26%), Budget (33.69%), Premium (26.05%)
+- **Spending Patterns:** New Families pay highest average price ($3.91), indicating premium preferences
 
-## Setup Instructions
-1. Clone the repo: `git clone https://github.com/[YourUsername]/Quantium-Data-Analytics-Simulation.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run notebooks in `/notebooks/` using Jupyter.
+### Sales Performance
+- **Top Product:** Kettle Mozzarella Basil & Pesto 175g ($33,043.50 total sales)
+- **Popular Pack Size:** 175g (25.1% of total sales)
+- **Sales Trends:** Significant fluctuations with peaks in January 2019 (6,900 units)
 
-## Reflections
-This simulation enhanced my ability to translate raw data into business value, bridging my geophysics background with practical data analytics. Key learnings include customer segmentation and presenting insights concisely for stakeholders.
+### Trial Store Impact
+| Trial Store | Control Store | Max Sales Increase | Statistical Significance |
+|-------------|---------------|-------------------|--------------------------|
+| Store 77    | Store 233     | 41.91% (Apr 2019) | ✅ All months significant |
+| Store 88    | Store 237     | 20.47% (Mar 2019) | ✅ All months significant |
+| Store 86    | Store 155     | 21.14% (Mar 2019) | ⚠️ Only March significant |
 
-## Certificate
-![Quantium Certificate](visuals/certificate.png)
+## 🛠️ Methodology
+
+### Data Processing
+- **Dataset:** 264,836 transactions, 72,637 customers
+- **Cleaning:** Removed duplicates, handled outliers, validated data types
+- **Preprocessing:** DateTime conversion, quantity validation, customer segmentation
+
+### Analytical Techniques
+- **Customer Segmentation:** Lifestage and membership analysis
+- **RFM Analysis:** Customer value segmentation
+- **Statistical Testing:** T-tests for trial impact validation
+- **Control Store Matching:** Correlation analysis (0.87-0.97) and SMD (0.00-0.02)
+
+## 📁 Project Structure
